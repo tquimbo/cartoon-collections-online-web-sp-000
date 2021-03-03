@@ -8,7 +8,7 @@ end
 
 def summon_captain_planet(planeteer_calls)# code an argument here
   # capitalize each element, add exclamation
-  planeteer_calls.map {|string| string.capitalize && |string| string.exclamation}
+  planeteer_calls.map {|string| string.capitalize && string.exclamation}
 end
 
 # def long_planeteer_calls# code an argument here
