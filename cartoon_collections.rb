@@ -6,11 +6,11 @@ def roll_call_dwarves(dwarves)# code an argument here
  end
 end
 
-def summon_captain_planet(planeteer_calls)# code an argument here
-  # capitalize each element, add exclamation
-  planeteer_calls.map {|string| string.capitalize <<"!"}
+def summon_captain_planet(arr)
+  arr.map do |elem|
+    elem.capitalize << "!"
+  end
 end
-
 # def long_planeteer_calls# code an argument here
 #   # Your code here
 # end
